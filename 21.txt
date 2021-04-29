@@ -1,0 +1,8 @@
+Jelaskan Fungsi dari perintah ini.?
+    [@MikroTik]ip firewall nat > add chain = dstnat protocol = tcp src - addre
+ss = 192.168.1.0 / 24 dst - port=80 action = redirect to - ports=8080
+
+Jwab: Untuk melakukan konfigurasi NAT (Network Address Translation)
+nb:
+menambah chain / parameter lalu menggantikan alamat tujuan atau port dari paket IP ke nilai yang ditentukan oleh address (192.168.1.0 / 24 dst) dan port (80)
+kemudian menggantikan port tujuan dari paket IP ke ports=8080

@@ -1,0 +1,12 @@
+// 19.Pengaksesan array 1 dimensi
+Untuk cara pengaksesannya cukup mudah, kita cukup menggunakan nilai
+indeksnya saja.
+    int[] array = { 9, 1, 10, 9, 12, 781, - 1, -20, 3, 2};
+System.out.println(array[2]);
+System.out.println(array[9]);
+
+Akan menghasilkan output:
+
+Jawab:
+array[2] = 10
+array[9] = 2

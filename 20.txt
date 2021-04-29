@@ -1,0 +1,4 @@
+Jelaskan Fungsi dari perintah ini .?
+[@MikroTik] > ip address add address=10.10.10.1/24 interface=ether1
+
+Jawab : Untuk menambahkan Ip address secara manual pada interface ether 1

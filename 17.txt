@@ -1,0 +1,23 @@
+int k = 2;
+int t = (k *= 2) + 3;
+
+
+while (k < 10) {
+    if (t <= 2 && t >= 10) {
+        t %= 2;
+        break;
+    } else {
+        while (t <= 15) {
+            t++;
+        }
+        if (t % 4 > 4) {
+            k++;
+        } else {
+            k += 3;
+        }
+    }
+}
+
+
+Dalam kode diatas, berapa kali looping yang dijalankan ?
+    jawab : 16 kali

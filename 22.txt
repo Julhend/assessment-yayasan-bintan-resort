@@ -1,0 +1,4 @@
+Jelaskan Fungsi dari perintah ini .?
+@MikroTik] > ip proxy access add action dst-host=www.youtube.com
+
+Jawab: Digunakan untuk memblokir website (youtube)

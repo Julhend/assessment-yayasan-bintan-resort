@@ -1,0 +1,19 @@
+Konfigurasi kan topologi jaringan dibawah hingga terkoneksi dengan internet .?
+
+Jawab:
+
+1. Melakukan konfigurasi Ip server 
+-pada komputer klik icon network lalu pilih Open network and sharing center
+-kemudian pilih change adapter options
+-Ethernet Client => terus klik Properties => dan klik Internet Protocol version 4 => lalu klik Use the following ip address => dan ketikan ip
+localnya Ip address : 192.168.1.100, Netmask : 255.255.255.0 => lalu klik OK
+
+
+2. Melakukan konfigurasi pada Ip client 
+-masuk ke setting, change adapter setting
+-double klik pada Ethernet LAN => klik Properties => klik Internet Protocol Version 4 => klik Use the following IP address =>
+dan ketikan IP yang satu Nerwork dengan IP Server, IP address : 192.168.1.1
+Netmask : 255.255.255.0
+-kemudian melalui cmd , ketikan perintah ping 192.168.1.100 untuk mengeping ke computer server
+
+3. 
